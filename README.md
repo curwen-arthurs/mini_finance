@@ -214,6 +214,21 @@ Once you've made your LinkedIn post:
 
 ---
 
+### **Assignment 12: Task 2 Code Snippet**
+**Dynamic Date**   
+
+```sh
+<p>Mini Finance v1.0 — Deployed on <span id ="date"></span> - By Curwen Arthurs</p>
+```
+
+```sh
+        <script>
+            document.getElementById('date').textContent = new Date().toLocaleDateString(undefined, {
+                year: 'numeric', month: 'long', day: 'numeric'
+            });
+        </script>
+``` 
+
 ### **🎯 Final Thought**  
 💡 **Learning is great, but showcasing your skills is even better!** By sharing your achievement, you're taking a **big step towards building your professional reputation** in the industry.  
 
